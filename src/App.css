@@ -18,27 +18,27 @@ body {
 
 h1 {
   font-family: 'Cardo', serif;
-  line-height: 64px;
+  line-height: 52px;
   font-size: 48pt;
   letter-spacing: -1.2px;
   color: #3b83ff;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 h5 {
   font-family: "PT Serif";
   font-size: 20pt;
-  margin: 0 20px;
 }
 
 .era {
+  margin: 10px 0;
   font-size: 14pt;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 768px) {
   h1 {
-    font-size: 64pt;
+    font-size: 72pt;
     line-height: 84px;
   }
 
