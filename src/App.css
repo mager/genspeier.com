@@ -18,9 +18,11 @@ body {
 
 h1 {
   font-family: 'Cardo', serif;
-  font-size: 64pt;
-  line-height: 24px;
+  line-height: 64px;
+  font-size: 48pt;
+  letter-spacing: -1.2px;
   color: #3b83ff;
+  margin-bottom: 20px;
 }
 
 h5 {
@@ -31,4 +33,16 @@ h5 {
 
 .era {
   font-size: 14pt;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 64pt;
+    line-height: 84px;
+  }
+
+  h5 {
+    font-size: 20pt;
+  }
 }
