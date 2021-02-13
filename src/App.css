@@ -20,14 +20,24 @@ h1 {
   font-family: 'Cardo', serif;
   line-height: 52px;
   font-size: 48pt;
-  letter-spacing: -1.2px;
-  color: #3b83ff;
+  letter-spacing: -1.6px;
+  color: #266fee;
   margin: 20px 0;
+}
+
+h1 span {
+  font-weight: bold;
 }
 
 h5 {
   font-family: "PT Serif";
   font-size: 20pt;
+  margin-bottom: 10px;
+}
+
+.image img {
+  border: 2px solid #888;
+  max-width: 75%;
 }
 
 .era {
@@ -45,4 +55,9 @@ h5 {
   h5 {
     font-size: 20pt;
   }
+
+  .image img {
+    max-width: 100%;
+  }
+
 }
