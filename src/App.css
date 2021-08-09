@@ -21,7 +21,7 @@ h1 {
   line-height: 52px;
   font-size: 48pt;
   letter-spacing: -1.6px;
-  color: #3026ee;
+  color: #0202ff;
   margin: 20px 0;
 }
 
@@ -32,11 +32,11 @@ h1 span {
 h5 {
   font-family: "PT Serif";
   font-size: 20pt;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .image img {
-  border: 2px solid #888;
+  border: 10px double #888;
   max-width: 75%;
 }
 

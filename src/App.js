@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="main">
       <h5>In loving memory</h5>
-      <p className="image">
+      <div className="image">
         <img src={genImage} alt="Genevieve Speier" />
-      </p>
+      </div>
       <h1>
         <span>G</span>enevieve <span>S</span>peier
       </h1>
