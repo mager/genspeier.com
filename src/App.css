@@ -8,12 +8,13 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
   background:  #fefcfe;
   width: 100vw;
   height: 100vh;
+  padding-top: 32px;
+  margin-bottom: 48px;
 }
 
 h1 {
@@ -41,9 +42,10 @@ h5 {
 }
 
 .era {
-  margin: 10px 0;
+  margin: 10px 0 40px;
   font-size: 14pt;
 }
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 768px) {

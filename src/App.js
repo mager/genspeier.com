@@ -1,5 +1,11 @@
 import './App.css';
 import genImage from './gen-image.jpg'
+import { Button } from '@material-ui/core'
+
+const handleClick = (event) => {
+  // Redirect the user to the obituary page
+  window.open("https://www.legacy.com/us/obituaries/ourmidland/name/genevieve-speier-obituary?pid=197655443", "_blank");
+}
 
 function App() {
   return (
@@ -14,6 +20,7 @@ function App() {
       <p class="era">
         <em>May 2, 1948 – January 25, 2021</em>
       </p>
+      <Button onClick={handleClick} variant="outlined">Visit Obituary Page</Button>
     </div>
   );
 }
